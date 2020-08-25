@@ -242,12 +242,13 @@ a:hover {
   #article_projet_display {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: -30px;
+    padding: 20px;
   }
 
   .projet_border {
-    padding-left: 10px;
+    padding-bottom: 30px;
   }
 
   /*contact*/
