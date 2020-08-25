@@ -9,7 +9,7 @@ $color_fonts1:#7554E0;
 $color_fonts2:#000000;
 $color_fonts3:#ffffff;
 
-a,{color: $color_fonts3;}a:hover{color: $color_fonts2;}
+a{color: $color_fonts3;}a:hover{color: $color_fonts2;}
 
 .button{border-color:$color_display1 ;}
 .button:hover{color: $color_fonts1;}
