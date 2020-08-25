@@ -1,16 +1,16 @@
 {
   "name": "portfolio.io",
   "version": "1.0.0",
-  "description": "Portfolio laurent jordan",
+  "description": "",
   "main": "index.js",
   "scripts": {
-      "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass":"sass --watch ./sass/main.scss:./css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jordanlaurent/portfolio.io.git"
   },
-  "author": "laurent jordan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jordanlaurent/portfolio.io/issues"

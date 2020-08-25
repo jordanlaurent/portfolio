@@ -1,0 +1,26 @@
+.fa-github{color: #7554E0;}
+.fa-linkedin{color: #7554E0;}
+.fa-user-graduate{color: #7554E0;}
+
+$color_display1:#7554E0;
+$color_display2:#222222;
+
+$color_fonts1:#7554E0;
+$color_fonts2:#000000;
+$color_fonts3:#ffffff;
+
+a,{color: $color_fonts3;}a:hover{color: $color_fonts2;}
+
+.button{border-color:$color_display1 ;}
+.button:hover{color: $color_fonts1;}
+#header_display{background-color:$color_display1 ;color:$color_fonts3 ;}
+.header_ancre_config:hover{color:$color_fonts2 ;}
+
+#article_acceuil_display{color: $color_fonts3; background-color: $color_display2;}
+
+#titre_quisuisje{color:$color_display1 ;}
+#photo_quisuije{background-color:$color_display2 ; color: $color_fonts3;}
+
+#contact{background-color:$color_display2 ;color:$color_fonts1 ;}
+
+#footer{background-color: $color_display1; color: $color_fonts3; margin-top: -20px;}

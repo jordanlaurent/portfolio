@@ -1,0 +1,261 @@
+.fa-github {
+  color: #7554E0;
+}
+
+.fa-linkedin {
+  color: #7554E0;
+}
+
+.fa-user-graduate {
+  color: #7554E0;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.button {
+  border-color: #7554E0;
+}
+
+.button:hover {
+  color: #7554E0;
+}
+
+#header_display {
+  background-color: #7554E0;
+  color: #ffffff;
+}
+
+.header_ancre_config:hover {
+  color: #000000;
+}
+
+#article_acceuil_display {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+#titre_quisuisje {
+  color: #7554E0;
+}
+
+#photo_quisuije {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+#contact {
+  background-color: #222222;
+  color: #7554E0;
+}
+
+#footer {
+  background-color: #7554E0;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+li {
+  list-style: none;
+}
+
+li, p, h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.fa-github {
+  color: #7554E0;
+}
+
+.fa-linkedin {
+  color: #7554E0;
+}
+
+.fa-user-graduate {
+  color: #7554E0;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.button {
+  border-color: #7554E0;
+}
+
+.button:hover {
+  color: #7554E0;
+}
+
+#header_display {
+  background-color: #7554E0;
+  color: #ffffff;
+}
+
+.header_ancre_config:hover {
+  color: #000000;
+}
+
+#article_acceuil_display {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+#titre_quisuisje {
+  color: #7554E0;
+}
+
+#photo_quisuije {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+#contact {
+  background-color: #222222;
+  color: #7554E0;
+}
+
+#footer {
+  background-color: #7554E0;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+.button {
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px;
+}
+
+.photo {
+  border-radius: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  #article_acceuil_display li {
+    font-size: 28px;
+  }
+
+  #titre_quisuisje {
+    font-size: 38px;
+  }
+
+  #article_quisuisje_display {
+    font-size: 24px;
+  }
+
+  body, html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #section_display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* header */
+  #header_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #header_ancre_display {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+
+  .header_ancre_config {
+    padding: 10px;
+  }
+
+  /* aside*/
+  #aside-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* article acceuil */
+  #article_acceuil_display {
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /*article qui suis-je */
+  #article_quisuisje_display {
+    justify-content: center;
+    text-align: left;
+  }
+
+  #titre_quisuisje {
+    text-align: center;
+  }
+
+  #photo_quisuije {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #phrase_sousphotoquisuisje {
+    padding-top: 20px;
+  }
+
+  #footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #footer_display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .fa-mobile {
+    padding-left: 20px;
+    padding-right: 3px;
+  }
+
+  /* article projet */
+  #article_projet_display {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+  }
+
+  .projet_border {
+    padding-left: 10px;
+  }
+
+  /*contact*/
+  #contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

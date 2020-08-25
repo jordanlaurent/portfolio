@@ -1,0 +1,44 @@
+@media screen and (max-width: 1024px){
+ 
+    #article_acceuil_display li{font-size: 28px;}
+    #titre_quisuisje{font-size: 38px;}
+    #article_quisuisje_display{font-size: 24px;}
+    body,html{
+        padding: 0px;
+        margin : 0px;
+        width  : 100%; 
+  }
+  
+    #section_display{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* header */
+    #header_display{display: flex; flex-direction: row;justify-content: space-between; }
+    #header_ancre_display{display: flex; flex-direction: row; padding-top: 30px; }
+    .header_ancre_config{padding: 10px;}
+
+    /* aside*/
+    #aside-display{display: flex; flex-direction: row; justify-content: space-around;}
+
+    /* article acceuil */
+    #article_acceuil_display{padding-right:30px; text-align: center;padding-top: 50px; padding-bottom: 50px;}
+
+    /*article qui suis-je */
+    #article_quisuisje_display{justify-content: center; text-align:left}
+    #titre_quisuisje{text-align: center;}
+    #photo_quisuije{text-align: center;padding: 30px;}
+    #phrase_sousphotoquisuisje{padding-top: 20px;}
+
+    #footer{ width: 100%;bottom: 0; position: relative; padding-top: 15px; padding-bottom:15px;}
+    #footer_display{display: flex; flex-direction: row; flex-wrap: wrap;}
+    .fa-mobile{padding-left: 20px;padding-right: 3px;}
+
+    /* article projet */
+    #article_projet_display{  text-align: center; display: flex; flex-direction: row; margin-left: -30px;}
+    .projet_border{ padding-left: 10px; }
+
+    /*contact*/
+    #contact{padding-top: 30px; padding-bottom: 30px; text-align: center;}
+}
