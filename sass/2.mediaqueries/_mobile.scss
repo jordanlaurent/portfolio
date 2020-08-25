@@ -1,8 +1,10 @@
 @media screen and (max-width: 1024px){
- 
+ ul{padding: 0px;}
     #article_acceuil_display li{font-size: 28px;}
     #titre_quisuisje{font-size: 38px;}
     #article_quisuisje_display{font-size: 24px;}
+    #footer{font-size: 20px;}
+    #portfolio{font-size: 24px;}
     body,html{
         padding: 0px;
         margin : 0px;
@@ -15,28 +17,30 @@
     }
 
     /* header */
-    #header_display{display: flex; flex-direction: row;justify-content: space-between; }
-    #header_ancre_display{display: flex; flex-direction: row; padding-top: 30px; }
+    #header_display{display: flex; flex-direction: column; text-align: left;}
+    #header_ancre_display{display: flex; flex-direction: row;justify-content: center;}
     .header_ancre_config{padding: 10px;}
 
     /* aside*/
     #aside-display{display: flex; flex-direction: row; justify-content: space-around;}
 
     /* article acceuil */
-    #article_acceuil_display{padding-right:30px; text-align: center;padding-top: 50px; padding-bottom: 50px;}
+    #article_acceuil_display{text-align: center;padding-top: 50px; padding-bottom: 50px;}
 
     /*article qui suis-je */
-    #article_quisuisje_display{justify-content: center; text-align:left}
+    #article_quisuisje_display{justify-content: center; text-align:left; }
     #titre_quisuisje{text-align: center;}
     #photo_quisuije{text-align: center;padding: 30px;}
     #phrase_sousphotoquisuisje{padding-top: 20px;}
 
+    /* footer */
     #footer{ width: 100%;bottom: 0; position: relative; padding-top: 15px; padding-bottom:15px;}
-    #footer_display{display: flex; flex-direction: row; flex-wrap: wrap;}
-    .fa-mobile{padding-left: 20px;padding-right: 3px;}
+    #footer_display{display: flex; flex-direction: column; flex-wrap: wrap; }
+    .fa-mobile{padding-bottom: 10px;}
+    .fa-envelope{padding-bottom: 10px;}
 
     /* article projet */
-    #article_projet_display{  text-align: center; display: flex; flex-direction: column; margin-left: -30px; padding:20px}
+    #article_projet_display{  text-align: center; display: flex; flex-direction: column;justify-content: center;}
     .projet_border{ padding-bottom: 30px; }
 
     /*contact*/

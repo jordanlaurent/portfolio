@@ -145,6 +145,10 @@ a:hover {
 }
 
 @media screen and (max-width: 1024px) {
+  ul {
+    padding: 0px;
+  }
+
   #article_acceuil_display li {
     font-size: 28px;
   }
@@ -154,6 +158,14 @@ a:hover {
   }
 
   #article_quisuisje_display {
+    font-size: 24px;
+  }
+
+  #footer {
+    font-size: 20px;
+  }
+
+  #portfolio {
     font-size: 24px;
   }
 
@@ -171,14 +183,14 @@ a:hover {
   /* header */
   #header_display {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
   }
 
   #header_ancre_display {
     display: flex;
     flex-direction: row;
-    padding-top: 30px;
+    justify-content: center;
   }
 
   .header_ancre_config {
@@ -194,7 +206,6 @@ a:hover {
 
   /* article acceuil */
   #article_acceuil_display {
-    padding-right: 30px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -219,6 +230,7 @@ a:hover {
     padding-top: 20px;
   }
 
+  /* footer */
   #footer {
     width: 100%;
     bottom: 0;
@@ -229,13 +241,16 @@ a:hover {
 
   #footer_display {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
   .fa-mobile {
-    padding-left: 20px;
-    padding-right: 3px;
+    padding-bottom: 10px;
+  }
+
+  .fa-envelope {
+    padding-bottom: 10px;
   }
 
   /* article projet */
@@ -243,8 +258,7 @@ a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: -30px;
-    padding: 20px;
+    justify-content: center;
   }
 
   .projet_border {
