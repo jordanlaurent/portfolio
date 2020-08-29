@@ -18,6 +18,10 @@ a:hover {
   color: #000000;
 }
 
+h2 {
+  color: #7554E0;
+}
+
 .button {
   border-color: #7554E0;
 }
@@ -54,6 +58,10 @@ a:hover {
   color: #7554E0;
 }
 
+.separation_maps {
+  background-color: #7554E0;
+}
+
 #footer {
   background-color: #7554E0;
   color: #ffffff;
@@ -64,7 +72,7 @@ li {
   list-style: none;
 }
 
-li, p, h1 {
+li, p, h1, h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -92,6 +100,10 @@ a:hover {
   color: #000000;
 }
 
+h2 {
+  color: #7554E0;
+}
+
 .button {
   border-color: #7554E0;
 }
@@ -128,6 +140,10 @@ a:hover {
   color: #7554E0;
 }
 
+.separation_maps {
+  background-color: #7554E0;
+}
+
 #footer {
   background-color: #7554E0;
   color: #ffffff;
@@ -144,6 +160,161 @@ a:hover {
   border-radius: 200px;
 }
 
+.portfoliocenter {
+  text-align: center;
+}
+
+.textpetit {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  ul {
+    padding: 0px;
+  }
+
+  h2 {
+    font-size: 50px;
+    padding-left: 30px;
+    margin-bottom: -15px;
+  }
+
+  .textpetit {
+    font-size: 16px;
+  }
+
+  #article_acceuil_display li {
+    font-size: 28px;
+  }
+
+  #titre_quisuisje {
+    font-size: 38px;
+  }
+
+  #article_quisuisje_display {
+    font-size: 24px;
+  }
+
+  #footer {
+    font-size: 20px;
+  }
+
+  #portfolio {
+    font-size: 24px;
+  }
+
+  body, html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #section_display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* header */
+  #header_display {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  #header_ancre_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .header_ancre_config {
+    padding: 30px;
+  }
+
+  /* aside*/
+  #aside-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+
+  /* article acceuil */
+  #article_acceuil_display {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  /*article qui suis-je */
+  #article_quisuisje_display {
+    justify-content: center;
+    text-align: left;
+  }
+
+  #titre_quisuisje {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #photo_quisuije {
+    text-align: center;
+    padding: 80px;
+  }
+
+  #phrase_sousphotoquisuisje {
+    padding-top: 50px;
+  }
+
+  /* footer */
+  #footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #footer_display {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .fa-mobile {
+    padding-bottom: 10px;
+  }
+
+  .fa-envelope {
+    padding-bottom: 10px;
+  }
+
+  /* article projet */
+  #article_projet_display {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .projet_border {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+  /*contact*/
+  #contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .separation_maps {
+    height: 8px;
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   ul {
     padding: 0px;
