@@ -33,7 +33,7 @@
 
     /* mon domaine de competence */
     #domainecompetences{display: flex; flex-direction: row;justify-content: space-between; padding-left: 10%; padding-right: 10%;padding-top:60px;padding-bottom: 120px;}
-    .formecompetences{display: flex; flex-direction: column; text-align: center;line-height: 30px;}
+    .formecompetences{display: flex; flex-direction: column; text-align: center;line-height: 30px;transition: 0.90s;}
     .formecompetences:hover{font-size: 170%; transition: 0.90s;}
     .fa-window-maximize,.fa-mobile,.fa-code{padding-bottom: 20px;}
     #COMPETENCEPADDING{padding-bottom: 100px;padding-top: 50px;}

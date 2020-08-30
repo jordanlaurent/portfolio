@@ -308,6 +308,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     line-height: 30px;
+    transition: 0.9s;
   }
 
   .formecompetences:hover {
