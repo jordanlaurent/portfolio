@@ -1,30 +1,18 @@
 @media screen and (max-width: 1024px){
-    #article_acceuil_display li{font-size: 28px;}
-    .Titre_section{font-size: 38px;}
+    #article_acceuil_display li{font-size: 22px;}
+    .Titre_section{font-size: 28px;}
     #footer{font-size: 20px;}
     body,html{
         padding: 0px;
         margin : 0px;
         width  : 100%; 
   }
-  
-    #section_display{
-        display: flex;
-        flex-direction: column;
-    }
 
-    /* header */
-    #header_display{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;}
+  #header_display{display: flex; flex-direction: column; flex-wrap: wrap;}
+  #section_display{display: flex;flex-direction:column;padding-top: 50px;padding-bottom: 50px; text-align: center;}
+  #article_acceuil_display ul{padding: 0px;}
 
-    /* article acceuil */
-    #article_acceuil_display{text-align: center;padding-top: 50px; padding-bottom: 50px;}
+  .photoprofil{margin-top: 50px;}
 
-    /* footer */
-    #footer{ width: 100%;bottom: 0; position: relative; padding-top: 15px; padding-bottom:15px;}
-    #footer_display{display: flex; flex-direction: column; flex-wrap: wrap; }
-    .fa-mobile{padding-bottom: 10px;}
-    .fa-envelope{padding-bottom: 10px;}
-
-    /*contact*/
-    #contact{padding-top: 30px; padding-bottom: 30px; text-align: center;}
+  #portfolio_display{display: flex; flex-direction: column;background-image:url("../img/portfolio.jpg")}
 }

@@ -231,6 +231,16 @@ h2 {
     width: 100%;
   }
 
+  .shake-top {
+    margin-left: 42%;
+    margin-right: 42%;
+  }
+
+  .shake-top:hover {
+    margin-left: 42%;
+    margin-right: 42%;
+  }
+
   /* header */
   #header_display {
     display: flex;
@@ -413,11 +423,11 @@ h2 {
 }
 @media screen and (max-width: 1024px) {
   #article_acceuil_display li {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .Titre_section {
-    font-size: 38px;
+    font-size: 28px;
   }
 
   #footer {
@@ -430,68 +440,42 @@ h2 {
     width: 100%;
   }
 
+  #header_display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
   #section_display {
     display: flex;
     flex-direction: column;
-  }
-
-  /* header */
-  #header_display {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  /* article acceuil */
-  #article_acceuil_display {
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
   }
 
-  /* footer */
-  #footer {
-    width: 100%;
-    bottom: 0;
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #article_acceuil_display ul {
+    padding: 0px;
   }
 
-  #footer_display {
+  .photoprofil {
+    margin-top: 50px;
+  }
+
+  #portfolio_display {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .fa-mobile {
-    padding-bottom: 10px;
-  }
-
-  .fa-envelope {
-    padding-bottom: 10px;
-  }
-
-  /*contact*/
-  #contact {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+    background-image: url("../img/portfolio.jpg");
   }
 }
 .shake-top:hover {
   -webkit-animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  margin-left: 42%;
-  margin-right: 42%;
   min-width: 220px;
   border-radius: 10px;
 }
 
 .shake-top {
-  margin-left: 42%;
-  margin-right: 42%;
   min-width: 220px;
   border-radius: 10px;
 }

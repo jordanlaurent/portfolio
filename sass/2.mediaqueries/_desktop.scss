@@ -11,6 +11,12 @@
         margin : 0px;
         width  : 100%; 
   }
+  .shake-top{
+    margin-left: 42%;
+margin-right: 42%;}
+.shake-top:hover{
+margin-left: 42%;
+margin-right: 42%;}
 
     /* header */
     #header_display{display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 0;padding-top: 10px;}
