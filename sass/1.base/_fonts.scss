@@ -1,7 +1,18 @@
   @import "_colors.scss";
 
+  @font-face {
+    font-family: 'Avocado Creamy';
+    src: url('../fonts/AvocadoCreamy.woff2') format('woff2'),
+        url('../fonts/AvocadoCreamy.woff') format('woff'),
+        url('../fonts/AvocadoCreamy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h1,.Titre_section,.titrefont,h2{font-family: Avocado Creamy;}
+
   li{list-style: none;}
-  li,p,h1,h2{font-family: Arial, Helvetica, sans-serif;}
+p{font-family: Arial, Helvetica, sans-serif;}
 
   a, a:hover{
     text-decoration: none;

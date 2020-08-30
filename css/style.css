@@ -1,13 +1,22 @@
+body {
+  background-color: #222222;
+}
+
 .fa-github {
-  color: #7554E0;
+  color: #ffffff;
 }
 
 .fa-linkedin {
-  color: #7554E0;
+  color: #ffffff;
 }
 
 .fa-user-graduate {
-  color: #7554E0;
+  color: #ffffff;
+}
+
+.shake-top {
+  color: #ffffff;
+  background-color: #7554E0;
 }
 
 a {
@@ -22,44 +31,30 @@ h2 {
   color: #7554E0;
 }
 
-.button {
-  border-color: #7554E0;
-}
-
-.button:hover {
-  color: #7554E0;
-}
-
 #header_display {
   background-color: #7554E0;
   color: #ffffff;
 }
 
-.header_ancre_config:hover {
-  color: #000000;
-}
-
 #article_acceuil_display {
   color: #ffffff;
-  background-color: #222222;
 }
 
-#titre_quisuisje {
-  color: #7554E0;
-}
-
-#photo_quisuije {
-  background-color: #222222;
+#competence {
   color: #ffffff;
+}
+
+#logolanguage {
+  color: #ffffff;
+}
+
+#formulairecontact {
+  color: white;
 }
 
 #contact {
   background-color: #222222;
   color: #7554E0;
-}
-
-.separation_maps {
-  background-color: #7554E0;
 }
 
 #footer {
@@ -68,11 +63,22 @@ h2 {
   margin-top: -20px;
 }
 
+@font-face {
+  font-family: "Avocado Creamy";
+  src: url("../fonts/AvocadoCreamy.woff2") format("woff2"), url("../fonts/AvocadoCreamy.woff") format("woff"), url("../fonts/AvocadoCreamy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+h1, .Titre_section, .titrefont, h2 {
+  font-family: Avocado Creamy;
+}
+
 li {
   list-style: none;
 }
 
-li, p, h1, h2 {
+p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -80,16 +86,25 @@ a, a:hover {
   text-decoration: none;
 }
 
+body {
+  background-color: #222222;
+}
+
 .fa-github {
-  color: #7554E0;
+  color: #ffffff;
 }
 
 .fa-linkedin {
-  color: #7554E0;
+  color: #ffffff;
 }
 
 .fa-user-graduate {
-  color: #7554E0;
+  color: #ffffff;
+}
+
+.shake-top {
+  color: #ffffff;
+  background-color: #7554E0;
 }
 
 a {
@@ -104,44 +119,30 @@ h2 {
   color: #7554E0;
 }
 
-.button {
-  border-color: #7554E0;
-}
-
-.button:hover {
-  color: #7554E0;
-}
-
 #header_display {
   background-color: #7554E0;
   color: #ffffff;
 }
 
-.header_ancre_config:hover {
-  color: #000000;
-}
-
 #article_acceuil_display {
   color: #ffffff;
-  background-color: #222222;
 }
 
-#titre_quisuisje {
-  color: #7554E0;
-}
-
-#photo_quisuije {
-  background-color: #222222;
+#competence {
   color: #ffffff;
+}
+
+#logolanguage {
+  color: #ffffff;
+}
+
+#formulairecontact {
+  color: white;
 }
 
 #contact {
   background-color: #222222;
   color: #7554E0;
-}
-
-.separation_maps {
-  background-color: #7554E0;
 }
 
 #footer {
@@ -150,57 +151,36 @@ h2 {
   margin-top: -20px;
 }
 
-.button {
-  border-style: solid;
-  border-width: 4px;
-  padding: 10px;
-}
-
-.photo {
-  border-radius: 200px;
-}
-
-.portfoliocenter {
-  text-align: center;
-}
-
-.textpetit {
-  text-align: center;
+.photoprofil {
+  border-radius: 180px;
+  margin-top: -10px;
 }
 
 @media screen and (min-width: 1024px) {
-  ul {
-    padding: 0px;
-  }
-
   h2 {
-    font-size: 50px;
-    padding-left: 30px;
-    margin-bottom: -15px;
+    text-align: center;
+    font-size: 40px;
   }
 
-  .textpetit {
-    font-size: 16px;
+  .titrefont {
+    font-size: 20px;
   }
 
-  #article_acceuil_display li {
-    font-size: 28px;
+  #article_acceuil_display {
+    font-size: 22px;
+    line-height: 80px;
   }
 
-  #titre_quisuisje {
-    font-size: 38px;
+  .Titre_section {
+    font-size: 78px;
   }
 
-  #article_quisuisje_display {
-    font-size: 24px;
+  .gauchecompetence {
+    font-size: 22px;
   }
 
   #footer {
     font-size: 20px;
-  }
-
-  #portfolio {
-    font-size: 24px;
   }
 
   body, html {
@@ -209,61 +189,53 @@ h2 {
     width: 100%;
   }
 
-  #section_display {
-    display: flex;
-    flex-direction: column;
-  }
-
   /* header */
   #header_display {
     display: flex;
     flex-direction: row;
-    text-align: left;
-  }
-
-  #header_ancre_display {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding-top: 10px;
   }
 
   .header_ancre_config {
-    padding: 30px;
-  }
-
-  /* aside*/
-  #aside-display {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px;
+    padding-top: 30px;
   }
 
   /* article acceuil */
   #article_acceuil_display {
+    margin-top: -16px;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 400px;
+    background-image: url("../img/web_developpeur_desktop.jpg");
   }
 
-  /*article qui suis-je */
-  #article_quisuisje_display {
-    justify-content: center;
-    text-align: left;
+  #competence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 60px;
   }
 
-  #titre_quisuisje {
-    text-align: center;
-    padding: 30px;
+  .gauchecompetence {
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
   }
 
-  #photo_quisuije {
-    text-align: center;
-    padding: 80px;
+  .droitecompetence {
+    padding-bottom: 10px;
   }
 
-  #phrase_sousphotoquisuisje {
-    padding-top: 50px;
+  #logolanguage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   /* footer */
@@ -271,8 +243,7 @@ h2 {
     width: 100%;
     bottom: 0;
     position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
   }
 
   #footer_display {
@@ -280,64 +251,27 @@ h2 {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 10px;
   }
 
-  .fa-mobile {
-    padding-bottom: 10px;
-  }
-
-  .fa-envelope {
-    padding-bottom: 10px;
-  }
-
-  /* article projet */
-  #article_projet_display {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .projet_border {
-    padding-bottom: 80px;
-    padding-top: 80px;
-  }
-
-  /*contact*/
-  #contact {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-  }
-
-  .separation_maps {
-    height: 8px;
-    margin-top: 20px;
+  #formulairecontact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("../img/contact.jpg");
+    background-position: center;
   }
 }
 @media screen and (max-width: 1024px) {
-  ul {
-    padding: 0px;
-  }
-
   #article_acceuil_display li {
     font-size: 28px;
   }
 
-  #titre_quisuisje {
+  .Titre_section {
     font-size: 38px;
-  }
-
-  #article_quisuisje_display {
-    font-size: 24px;
   }
 
   #footer {
     font-size: 20px;
-  }
-
-  #portfolio {
-    font-size: 24px;
   }
 
   body, html {
@@ -354,25 +288,9 @@ h2 {
   /* header */
   #header_display {
     display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-
-  #header_ancre_display {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-  }
-
-  .header_ancre_config {
-    padding: 10px;
-  }
-
-  /* aside*/
-  #aside-display {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   /* article acceuil */
@@ -382,25 +300,6 @@ h2 {
     padding-bottom: 50px;
   }
 
-  /*article qui suis-je */
-  #article_quisuisje_display {
-    justify-content: center;
-    text-align: left;
-  }
-
-  #titre_quisuisje {
-    text-align: center;
-  }
-
-  #photo_quisuije {
-    text-align: center;
-    padding: 30px;
-  }
-
-  #phrase_sousphotoquisuisje {
-    padding-top: 20px;
-  }
-
   /* footer */
   #footer {
     width: 100%;
@@ -424,23 +323,294 @@ h2 {
     padding-bottom: 10px;
   }
 
-  /* article projet */
-  #article_projet_display {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .projet_border {
-    padding-bottom: 30px;
-  }
-
   /*contact*/
   #contact {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+  }
+}
+.shake-top:hover {
+  -webkit-animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  margin-left: 42%;
+  margin-right: 42%;
+  min-width: 220px;
+  border-radius: 10px;
+}
+
+.shake-top {
+  margin-left: 42%;
+  margin-right: 42%;
+  min-width: 220px;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-8-30 3:34:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation shake-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes shake-top {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  20%, 40%, 60% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+}
+@keyframes shake-top {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  20%, 40%, 60% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+}
+.jello-horizontal:hover {
+  -webkit-animation: jello-horizontal 0.9s;
+  animation: jello-horizontal 0.9s;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-8-30 3:51:23
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation jello-horizontal
+ * ----------------------------------------
+ */
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulsate-bck:hover {
+  -webkit-animation: pulsate-bck 0.5s infinite;
+  animation: pulsate-bck 0.5s infinite;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-8-30 3:53:54
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation pulsate-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.slide-in-left {
+  -webkit-animation: slide-in-left 2s;
+  animation: slide-in-left 2s;
+}
+
+/* ----------------------------------------------
+* Generated by Animista on 2020-8-30 4:7:16
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  -webkit-animation: slide-in-right 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-8-30 4:9:4
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
