@@ -48,6 +48,14 @@ h2 {
   color: #ffffff;
 }
 
+#portfolio_display {
+  background-color: #ffffff;
+}
+
+.photoproject {
+  border-color: #7554E0;
+}
+
 #formulairecontact {
   color: white;
 }
@@ -78,7 +86,7 @@ li {
   list-style: none;
 }
 
-p {
+p, figcaption {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -136,6 +144,14 @@ h2 {
   color: #ffffff;
 }
 
+#portfolio_display {
+  background-color: #ffffff;
+}
+
+.photoproject {
+  border-color: #7554E0;
+}
+
 #formulairecontact {
   color: white;
 }
@@ -159,7 +175,7 @@ h2 {
 @media screen and (min-width: 1024px) {
   h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
   }
 
   .titrefont {
@@ -175,7 +191,7 @@ h2 {
     font-size: 78px;
   }
 
-  .gauchecompetence {
+  .gauchecompetence, p, figcaption {
     font-size: 22px;
   }
 
@@ -236,6 +252,34 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  /* portfolio */
+  #portfolio_display {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #portfolio-flex {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .photoproject {
+    margin: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+  }
+
+  /* contact*/
+  #contact {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
   }
 
   /* footer */

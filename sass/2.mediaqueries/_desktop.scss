@@ -1,10 +1,10 @@
   
 @media screen and (min-width: 1024px){
-    h2{text-align: center; font-size: 40px;}
+    h2{text-align: center; font-size: 80px;}
     .titrefont{font-size: 20px;}
     #article_acceuil_display {font-size: 22px;line-height: 80px;}
     .Titre_section{font-size: 78px;}
-    .gauchecompetence{font-size: 22px;}
+    .gauchecompetence,p,figcaption{font-size: 22px;}
     #footer{font-size: 20px;}
     body,html{
         padding: 0px;
@@ -24,6 +24,15 @@
     .droitecompetence{padding-bottom: 10px;}
 
     #logolanguage{display: flex; flex-direction: row;justify-content: space-evenly;}
+
+
+    /* portfolio */ 
+    #portfolio_display{text-align: center;padding-top: 20px;}
+    #portfolio-flex{ padding-bottom: 100px; display:flex; flex-direction: row; text-align: center;}
+    .photoproject{margin: 20px; border-style: solid; border-width: 3px; border-radius: 10px;}
+
+    /* contact*/
+    #contact{padding-top: 70px; padding-bottom: 50px; border-bottom-style: solid;border-bottom-width:10px;}
     /* footer */
     #footer{ width: 100%;bottom: 0; position: relative; padding-bottom:5px;}
     #footer_display{display: flex; flex-direction: row-reverse; flex-wrap: wrap; justify-content: space-evenly;padding-top: 10px;}
