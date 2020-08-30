@@ -20,13 +20,14 @@ h2{color:$color_fonts1 ;}
 #competence{color:$color_fonts3 ;}
 #logolanguage{color: $color_display3;}
 
-#portfolio_display{background-color:$color_display3 ;}
-.photoproject{border-color:$color_display1;}
+#portfolio_display{background-color:$color_display3 ;color:$color_fonts3 ;}
 
 #domainecompetences{color:$color_fonts3 ;}
+.hr1,.hr2,.hr3{background-color:$color_display3 ;}
+#iconecompetence{color:$color_display3 ;}
 
 #formulairecontact{color: white;}
 #contact{color:$color_fonts3;}
-#mappy{background-color: $color_display3;color:$color_fonts1 ;border-top-color:$color_display1 ;}
+#mappy{color:$color_fonts1 ;border-top-color:$color_display1 ;}
 
 #footer{background-color: $color_display1; color: $color_fonts3; margin-top: -20px;}

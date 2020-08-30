@@ -27,17 +27,19 @@
 
 
     /* portfolio */ 
-    #portfolio_display{text-align: center;padding-top: 20px;}
+    #portfolio_display{text-align: center;padding-top: 20px;background-image:url("../img/portfolio.jpg");}
     #portfolio-flex{ padding-bottom: 100px; display:flex; flex-direction: row; text-align: center;}
-    .photoproject{margin: 20px; border-style: solid; border-width: 3px; border-radius: 10px;}
+    .photoproject{margin: 20px; border-radius: 10px;box-shadow: 10px 5px 5p #000000;}
 
     /* mon domaine de competence */
     #domainecompetences{display: flex; flex-direction: row;justify-content: space-between; padding-left: 10%; padding-right: 10%;padding-top:60px;padding-bottom: 120px;}
     .formecompetences{display: flex; flex-direction: column; text-align: center;line-height: 30px;transition: 0.90s;}
     .formecompetences:hover{font-size: 170%; transition: 0.90s;}
-    .fa-window-maximize,.fa-mobile,.fa-code{padding-bottom: 20px;}
+    .fa-window-maximize,.fa-mobile,.fa-code,.fa-low-vision,.fa-tachometer-alt,.fa-google{padding-bottom: 20px;}
     #COMPETENCEPADDING{padding-bottom: 100px;padding-top: 50px;}
-
+    .hr1{width: 60%;margin-bottom:20px;height: 10px;transition: 1s;}.hr2{width: 40%;margin-bottom:20px;height: 10px;transition: 1s;}.hr3{width: 20%;height: 10px;transition: 1s;}
+    .hr1:hover{width: 40%;margin-bottom:20px; transition: 1s; height: 10px;}.hr2:hover{width: 30%;margin-bottom:20px;transition: 1s;}.hr3:hover{width: 5%;height: 10px;transition: 1s;}
+    #iconecompetence{display: flex; flex-direction: row;justify-content: space-around; padding-top: 30px; text-align: center;}
     /* contact*/
     #contact{padding-top: 70px;padding-bottom: 60px; background-image:url("../img/contact.jpg");background-position: center;}
 

@@ -50,13 +50,18 @@ h2 {
 
 #portfolio_display {
   background-color: #ffffff;
-}
-
-.photoproject {
-  border-color: #7554E0;
+  color: #ffffff;
 }
 
 #domainecompetences {
+  color: #ffffff;
+}
+
+.hr1, .hr2, .hr3 {
+  background-color: #ffffff;
+}
+
+#iconecompetence {
   color: #ffffff;
 }
 
@@ -69,7 +74,6 @@ h2 {
 }
 
 #mappy {
-  background-color: #ffffff;
   color: #7554E0;
   border-top-color: #7554E0;
 }
@@ -155,13 +159,18 @@ h2 {
 
 #portfolio_display {
   background-color: #ffffff;
-}
-
-.photoproject {
-  border-color: #7554E0;
+  color: #ffffff;
 }
 
 #domainecompetences {
+  color: #ffffff;
+}
+
+.hr1, .hr2, .hr3 {
+  background-color: #ffffff;
+}
+
+#iconecompetence {
   color: #ffffff;
 }
 
@@ -174,7 +183,6 @@ h2 {
 }
 
 #mappy {
-  background-color: #ffffff;
   color: #7554E0;
   border-top-color: #7554E0;
 }
@@ -276,6 +284,7 @@ h2 {
   #portfolio_display {
     text-align: center;
     padding-top: 20px;
+    background-image: url("../img/portfolio.jpg");
   }
 
   #portfolio-flex {
@@ -287,9 +296,8 @@ h2 {
 
   .photoproject {
     margin: 20px;
-    border-style: solid;
-    border-width: 3px;
     border-radius: 10px;
+    box-shadow: 10px 5px 5p #000000;
   }
 
   /* mon domaine de competence */
@@ -316,13 +324,60 @@ h2 {
     transition: 0.9s;
   }
 
-  .fa-window-maximize, .fa-mobile, .fa-code {
+  .fa-window-maximize, .fa-mobile, .fa-code, .fa-low-vision, .fa-tachometer-alt, .fa-google {
     padding-bottom: 20px;
   }
 
   #COMPETENCEPADDING {
     padding-bottom: 100px;
     padding-top: 50px;
+  }
+
+  .hr1 {
+    width: 60%;
+    margin-bottom: 20px;
+    height: 10px;
+    transition: 1s;
+  }
+
+  .hr2 {
+    width: 40%;
+    margin-bottom: 20px;
+    height: 10px;
+    transition: 1s;
+  }
+
+  .hr3 {
+    width: 20%;
+    height: 10px;
+    transition: 1s;
+  }
+
+  .hr1:hover {
+    width: 40%;
+    margin-bottom: 20px;
+    transition: 1s;
+    height: 10px;
+  }
+
+  .hr2:hover {
+    width: 30%;
+    margin-bottom: 20px;
+    transition: 1s;
+  }
+
+  .hr3:hover {
+    width: 5%;
+    height: 10px;
+    transition: 1s;
+  }
+
+  #iconecompetence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
   }
 
   /* contact*/
