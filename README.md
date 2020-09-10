@@ -1,3 +1,3 @@
 # portfolio.github.io
 Voici mon porftolio 
-https://jordanlaurent.github.io/portfolio.github.io/
+https://jordanlaurent.github.io/portfolio/
