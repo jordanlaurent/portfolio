@@ -2,119 +2,238 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Etre présent sur internet est devenu incontournable, mais par où commencer ? Je vais vous accompagné de A à Z dans vos projets e-commerce avec des solutions clés en main">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9d71f1e47f.js" crossorigin="anonymous"></script>
-    <title>Laurent Jordan Dév web Fullstack Montelimar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Création de boutique Shopify - Montelimar</title>
 </head>
-<body>
-    <header>
-        <ul id="header_display">
-            <h1 class="jello-horizontal">Laurent Jordan <br>Developpeur Web Junior FULLStack</h1>
-             <li class="header_ancre_config pulsate-bck titrefont"> <a href="#profil" > PROFIL</li></a> 
-             <li class="header_ancre_config pulsate-bck titrefont"><a href="#portfolio">PORTFOLIO</li></a>
-             <li class="header_ancre_config pulsate-bck titrefont"><a href="#contact" >CONTACT</li></a>
-             <li><a href="https://github.com/jordanlaurent" target="new">
-                <i class=" pulsate-bck  fab fa-4x fa-github"></i></a></li>
-           <li><a href="https://www.linkedin.com/in/jordan-laurent-33018a164/" target="new">
-                <i class=" pulsate-bck  fab fa-4x fa-linkedin"></i> </a>
+
+<body class="bg-dark">
+    <!--message alerte -->
+    <div class="alert alert-warning text-center" role="alert">
+        Ceci est un portfolio réaliser en html/css grace à vs code et Bootstrap !
+      </div>
+
+      <!--Navbar-->
+    <nav class="navbar navbar-expand-lg justify-content-center">
+        <a class="navbar-brand text-white" href="#">Création de boutique SHOPIFY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+   
+      <!--banniere priincipal-->
+      <img src="img/BANNIERE DEVELOPPEUR FULL STACK DESKTOP LAURENT JORDAN.png" class="img-fluid w-100" alt="banniere developpeur full stack laurent jordan">
+    
+      <!--carte de presentation-->
+      <div class="card-group">
+          
+      <div class="card text-center">
+        <img class="card-img-top" src="img/laurent jordan openclassroom.png" alt="openclassroom formations laurent jordan">
+        <div class="card-body">
+          <h5 class="card-title">Mon parcours</h5>
+          <p class="card-text">J'ai réaliser le parcours de développeur web full stack Bac +2 avec openclassroom.</p>
+          <a href="#OpenclassroomsMonParcours" class="btn btn-primary">En savoir plus</a>
+        </div>
+        </div>
+
+      <div class="card text-center">
+        <img class="card-img-top" src="img/LAURENT JORDAN SHOPIFY .png" alt="shopify création boutique e-commerce">
+        <div class="card-body">
+          <h5 class="card-title">Presentation du cms</h5>
+          <p class="card-text">Je vais vous expliquer pourquoi nous allons utilisér shopify et pas un autre cms comme wordpress </p>
+          <a href="#shopify" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/contact laurent jordan.png" alt="contact laurent jordan">
+            <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <p class="card-text">Utiliser le formulaire de contact pour me présenter votre projet e-commerce</p>
+              <a href="#contactFormulaire" class="btn btn-primary">En savoir plus</a>
+            </div>
+        </div>
+            
+          </div>
+        
+      </div>
+    </div>
+
+     <!--Article de presentation de mon parcour-->
+    <article id="OpenclassroomsMonParcours" class="text-white">
+        <ul id="openclassrommsArtile">
+           <li >
+                 <h3>Mon Profil</h3>
+                 <p>Je suis un Développeur Web FullStack vivant à Monteimar, France. <br>
+                 Après un displomes de web developpeur equivalent bac +2 passer avec Openclassrooms, je me suis orienté vers le développement web de boutique e-commerce avec le cms Shopify</p>
+                 <h3>Compétence asquises lors de ma formation</h3>
+                <p>découper, assembler et intégrer tous les éléments d’une maquette graphique en <i class="fab fa-2x fa-html5"></i> et <i class="fab fa-2x fa-css3-alt"></i> ; </p>
+                <p>ajouter du contenu audio et vidéo en HTML5 ;</p>
+                <p>animer les pages web avec CSS3 ;</p>
+                <p>appliquer les standards du web et les normes en vigueur ;</p>
+                <p>construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) ;</p>
+                <p>améliorer le référencement naturel en utilisant les balises selon leur sémantique ;</p>
+                <p>faire réagir la page web en fonction des actions de l’utilisateur en JavaScript ;</p>
+                <p>se connecter à un service web pour exploiter des données tierces (API) ;</p>
+                <p>gérer les comptes utilisateurs ;</p>
+                <p>concevoir un site maintenable grâce à la gestion des erreurs et exceptions ;</p>
+                <p>créer, gérer et afficher le contenu d’une base de données.</p>
             </li>
-           <li><i class=" pulsate-bck  fas fa-4x fa-user-graduate"></i></li>
+            
+            <li class="openclassromArticleImg">   
+                <img class="rounded-circle photoProfil mx-auto" style="width: 70%;" src="img/image-profil.jpg">
+                <h3>Diplome obtenue de web developpeur full stack (équivalent bac +2)</h3>
+                <p>"Je me suis spécialisér sur le cms shopify apres ma formation Openclassroom c'est en effet la ou je prend le plus de plaisir à la réalisations de vos projets" </p>
+                 <p>Mon github étudiant : <a href="https://github.com/jordanlaurent" target="_blank"><i class="fab fa-3x fa-github"></i> </a></p>
+            </li>
+        </ul>     
+        <h3 class="text-center">Les languages de programation/cms que je métrise :</h3>
+            <div id="logolanguage">
+                <li><i class="fab  fa-6x fa-html5" aria-hidden="true"></i></li>
+                <li><i class="fab fa-6x fa-css3-alt" aria-hidden="true"></i></li>
+                <li><i class="fab fa-6x fa-shopify" aria-hidden="true"></i></li>
+                <li><i class="fab fa-6x fa-sass" aria-hidden="true"></i></li>
+                <li><i class="fab fa-6x fa-js-square" aria-hidden="true"></i></li>
+            </div>
+      </article>
+
+       <!--Caroussel shopify -->
+      <div id="shopify" class="carousel slide bg-light" data-ride="carousel">
+          <h4 class="text-center">Exemple de boutique trouvable sur le web réaliser avec shopify</h4><br>
+        <ol class="carousel-indicators">
+          <li data-target="#shopify" data-slide-to="0" class="active"></li>
+          <li data-target="#shopify" data-slide-to="1"></li>
+          <li data-target="#shopify" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/exemple-1.webp" alt="First slide">
+            <div class="carousel-caption d-none d-md-block ">
+                <h5>Boutique de vetement sur mesure</h5>
+                <a href="https://www.soulfulhues.com/" target="_blank" ><p>Visiter la boutique</p> </a>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100" src="img/exemple-2.webp" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block ">
+            <h5>Vente d'accesoires pour smartphones</h5>
+                <a href="https://shop.chaos.club/" target="_blank" ><p>Visiter la boutique</p> </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/exemple-3.webp" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block ">
+            <h5>E-commerce spécialisé dans la vente alimentaire</h5>
+                <a href="https://greengurus.de/" target="_blank" ><p>Visiter la boutique</p> </a>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#shopify" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Précedent</span>
+        </a>
+        <a class="carousel-control-next" href="#shopify" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
+      </div>
+      <!-- Fin de carroussel shopify-->
+     
+      <!--article présentation shopify-->
+      <article class="descriptionShopify bg-light">
+          <ul class="bg-light">
+              <h3>Pourquoi utiliser shopify et pas un autres ?</h3>
+              <li><p>C'est le cms le plus connu et le plus utiliser pour la creation de site e-commerce , de la meme facon que Wordpress est le cms le plus utiliser pour du blogging, site vitrine et autres.</p>
+                <p>Il dispose d'une interface simple et complette qui vous permettra de suivre l'etat de votre stock et de le gérer en temps réelle </p>
+                <p>Le paiment est sécurisé contre le piratage et les moyens de paiement a votre dispositionnombreux il vous suffira de relier le RIB de votre compte professionnel pour encaisser les commandes</p>
+                <p>Ils dispose d'une grande communauté qui crée de nombreux addons attrayant pour déclencher des ventes ce qui permet d'augmenter considérablement votre chiffre d'affaires</p> 
+                <p>Disposer d'un nom de domaine en .fr ou .com , adresse email professionnel "contact@monentreprise.fr" et de serveur performants pour herberger votre e-commerce </p>   
+                <p>Vous pouver aussi bien faire de la vente avec stock que du dropshipping grace aux extension type Oberlo</p>
+            </li>
         </ul>
-    </header>
-    <section id="section_display">
-        <article id="article_acceuil_display">
-             <ul>
-                 <li class="Titre_section slide-in-left">Developpeur web junior FullStack</li>
-                 <li><p class="slide-in-right ">Developpeur web à Montpellier, en quétes d'un premier emplois</p></li>
-                 <a href="#contact" ><li><p class="shake-top"> CONTACT </p></li></a>
-             </ul>
-        </article>
-        <h2 id="profil" >Mon Profil</h2>
-        <article id="competence">
-            <ul class="gauchecompetence">
-                <li>Je suis un Développeur Web Junior FullStack vivant à Monteimar, France.<br>
-                    Je suis à la recherche d'un premier travaille dans ce domaine.<br>
-                    Après un displomes de web developpeur equivalent bac +2 passer avec Openclassrooms, je me suis orienté vers le développement web afin de mettre en pratique mes connaissances théoriques.<br>
-                    N'hésitez pas à me contacter en utilisant le formulaire en bas de page.</li>
-            </ul>
-            <ul class="droitecompetence">
-                <li><img class="photoprofil" src="./img/image-profil.jpg" alt=""></li>
-            </ul>
-        </article>
-        <article>
-            <ul id="logolanguage">
-                <li><i class="fab  fa-6x fa-html5"></i></li>
-                <li><i class="fab fa-6x fa-css3-alt"></i></li>
-                <li><i class="fab fa-6x fa-sass"></i></li>
-                <li><i class="fab fa-6x fa-js-square"></i></li>
-            </ul>
-        </article>
-        <article  id="portfolio_display">
-            <h2 id="portfolio">Portfolio</h2>
-            <p>Voici tous mes projets réaliser dans le cadre de mes études</p>
-            <ul id="portfolio-flex">
-                <figure><a href="https://jordanlaurent.github.io/" target="_blanck" > <img class="photoproject jello-horizontal" src="./img/cv_web_projet1.jpg" alt="Projet 1"></a><figcaption>L'objectif était de coller aux plus pres du visuel donné pour nous apprendre les bases du CSS mais surtout le sémantique HTML5</figcaption> 
-                </figure>
-                <figure><a href="https://jordanlaurent.github.io/restaurent.github.io/" target="_blanck" > <img class="photoproject jello-horizontal" src="./img/cv_web_projet2.jpg" alt="Projet 2"> </a><figcaption>Ici le but était d'apprendre les animations mais surtout la technique du SASS et la compilation ce qui pousse énormément notre connaissance du CSS </figcaption>
-                </figure>
-                <figure><a href="https://jordanlaurent.github.io/lachouetteagence.github.io/" target="_blanck" ><img class="photoproject jello-horizontal" src="./img/projet3.jpg" alt="Projet 3"></a><figcaption>Sur ce projet nous devions reprendre le site existant et proposer des solutions pour améliorer son SEO et sa rapidité d'affichage en plus de sa compatibilité avec le plus de handicaps possible</figcaption>
-            </ul>
-        </article>
-        <article id="COMPETENCEPADDING">
-            <h2>Mon domaine de competences</h2>
-            <ul id="domainecompetences">
-                <li> <ul class="formecompetences"> <li><i class="fas fa-4x fa-window-maximize"></i></li> 
-                          <li>Site WEB ET E-COMMERCE<br>Développement de site internet personnalisé, pour présenter votre activité ou vendre vos produits.Spécialement conçus pour les TPE/PME, artisans, associations et particuliers.
-                          </li>
-                    </ul>
-                <li> <ul class="formecompetences"> <li><i class="fas fa-4x fa-mobile"></i></li>
-                         <li>APPLICATION IOS ET ANDROID<br>Création d'application mobile pour digitaliser votre entreprise. Design sur-mesure, reflétant votre site internet ou intranet existant. Une application rapide et performante.
-                         </li>
-                     </ul> 
-                <li> <ul class="formecompetences"> <li><i class="fas fa-4x fa-code"></i></li>
-                        <li>DÉVELOPPEMENT SPÉCIALISÉ <br>J'interviens sur tout types de mission au sein de votre entreprise pour développer des outils ou fonctionnalités précises. En télétravail et également au sein de votre entreprise.
-                        </li>
-                    </ul> 
-            </ul>
-            <hr class="hr1">
-            <hr class="hr2">
-            <hr class="hr3">
-            <ul id="iconecompetence">
-                <li class="formecompetences" ><i class="fab fa-5x fa-google"></i><br>Optimisation seo</li>
-                <li class="formecompetences" ><i class="fas fa-5x fa-low-vision"></i><br>Suivie des regles handicaps </li>
-                <li class="formecompetences" ><i class="fas fa-5x fa-tachometer-alt"></i><br>Compression gzip / minification</li>
-            </ul>
-        </article>
-        <article id="contact">
-            <h2>Contact</h2>
-            <div id="form" style="margin: 0 auto; width: 350px;">
-					Nom: <br>
-					<input type="text" style="width: 100%;" class="form" id="vorschauinputname">
-				</p>
-							<p class="form" id="vorschauemail" style="display: block;">
-					E-Mail: <br>
-					<input type="email" style="width: 100%;" class="form" id="vorschauinputemail">
-				</p>
-						<p class="form" id="vorschaunachricht" style="display: block;">
-				Message: <br>
-				<textarea style="width: 100%;" rows="9" class="form" id="vorschauinputnachricht"></textarea>
-			</p>
-				<div class="g-recaptcha" data-sitekey="6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag&amp;co=aHR0cDovL2ZyLmZveHlmb3JtLmNvbTo4MA..&amp;hl=fr&amp;v=QVh-Tz10ahidjrORgXOS1oB0&amp;size=normal&amp;cb=jxoplt75w3sq" width="304" height="78" role="presentation" name="a-4hv727g55q62" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-	<p class="form" style="text-align: center;"><input type="submit" value="Envoyer le message!" class="formsubmit" id="vorschausubmit1" onclick="alert('Ceci n'est qu'un aperçu!'); return false;"></p>
-</div>
-        </article>
-        <article id="mappy">
-             <h2 ><i class="fas fa-map-marker-alt"></i>Maps</h2>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1421.477764315948!2d4.752032665297395!3d44.55701450060033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b56b199b57552b%3A0x98c79a76ecaf45!2sPlace%20Alphonse%20Planel%2C%2026200%20Mont%C3%A9limar!5e0!3m2!1sfr!2sfr!4v1598710578036!5m2!1sfr!2sfr" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </article>
-     </section>
-         <footer id="footer">
-            <ul id="footer_display">
-                 <li><i class="fas fa-mobile"></i><span> 06.35.26.66.19</span></li>
-                 <li><i class="fas  fa-envelope"></i><span> laurent.jordan@outlook.fr</span></li>
-                 <li>2020 - Laurent Jordan, Développeur Web</li>
-             </ul>
-         </footer>
+      </article>
+
+
+            <article>
+                <h3 class="titre2">Ce que nous vous proposons</h3>
+                <div class="card-group">
+          
+                    <div class="card text-center bg-dark">
+                      <img class="card-img-top" src="img/20€.png" alt="formule 20€ ">
+                      <div class="card-body text-white">
+                        <h5 class="card-title text-white">Palier I- Installation d'un Thème gratuit + Configuration</h5>
+                        <p class="card-text">→Choix du thème selon la niche de produits
+                            <p>Mise en place jusqu'à 15 produits que vous m'aurez transmis</p>
+                            <p>→Catégorisation des produits</p>
+                            <p>→Installation des produits sur votre boutique avec des images de qualités</p>
+                            <p>→Automatisation de vos commandes</p>
+                            <p>→Paramétrage de votre checkout</p>
+                        <p>→Conditions générales, politique de confidentialité, politique de retours, page contact, FAQ, Suivi de commande (tracking)</p>
+                        <p>Durée du suivie une fois le site en ligne 1 semaine</p>
+                      </div>
+                      </div>
+              
+                    <div class="card text-center bg-dark">
+                      <img class="card-img-top" src="img/50€.png" alt="formule 50€">
+                      <div class="card-body text-white">
+                        <h5 class="card-title text-white">Palier I + Palier II</h5>
+                        <p class="card-text">→Installation des applications indispensables : Avis produits / Newsletter / Suivi de commande / Sécurité de la boutique / Site multilingues / Anti-spam / Pop-up</p>
+                        <p>Mise en place jusqu'à 15 produits supplémentaire que vous m'aurez transmis</p>
+                           <p> →Optimisation SEO </p>
+                           <p>→Banniere personaliser</p>
+                           <p>→Configuration des e-mails automatiques avec votre logo</p>
+                           <p>→Insertion des logos de confiance (paiement sécurisé,sav...) sur votre page d'accueil et vos pages produits</p>
+                           <p>Durée du suivie une fois le site en ligne 2 semaine</p>
+                      </div>
+                    </div>
+              
+                      <div class="card text-center bg-dark">
+                          <img class="card-img-top" src="img/259€.png" alt="formule 259€">
+                          <div class="card-body text-white">
+                            <h5 class="card-title text-white">Palier I + Palier II + Palier 3</h5>
+                            <p class="card-text"> Vous souhaiter plainement vous inverstir dans votre projet e-commerce, nous allons donc monter un projet complet emsemble
+                                en commencant par un desgign unique pour votre boutique.
+                                <p>Une fois le design unique et sur mesure réaliser nous allons installer tout les addons nécessaire et proceder à l'optimisation SEO</p>
+                                <p>Puis le site crée nous allons nous occuper du nom de domaine , des moyens de paiments  et des produits à ajouter</p>
+                                <p>Enfin j'assurerais une formations complete via l'application ZOOM pour que vous puissier prendre en main votre boutique et connaitre son fonctionnement de A a Z</p>
+                                <p>Durée du suivie une fois le site en ligne 1 mois</p>
+                            </p>
+                          </div>
+                      </div>
+                          
+                        </div>
+                      <h3 class="titre2">Il est tout a fait possible que je fasse le suivie de votre boutique a l'année le tarif est a voir en conversation ZOOM selon ce que vous souhaiter réaliser</h3>
+                    </div>
+                  </div>
+                </article>
+
+      <!--Formulaire de contact-->
+      <!-- Do not change the code! -->
+      <div id="contactFormulaire">
+          <h3 class="titre2">Veuillez préciser la formule qui vous intéresse (PALIER I,II,III)</h3>
+         <a id="foxyform_embed_link_194866" href="http://fr.foxyform.com/"></a>
+         <script type="text/javascript">
+         (function(d, t){
+         var g = d.createElement(t),
+         s = d.getElementsByTagName(t)[0];
+         g.src = "http://fr.foxyform.com/js.php?id=194866&sec_hash=609516ca2bf&width=350px";
+         s.parentNode.insertBefore(g, s);
+         }(document, "script"));
+         </script>
+    </div>
+    <!--footer-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted">Laurent jordan - Freelance web developpeur full stack .tout droit réservé @2020</span>
+        </div>
+      </footer>
 </body>
+
 </html>
