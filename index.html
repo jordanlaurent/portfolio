@@ -26,63 +26,68 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom js anim-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body id="page-top">
-
+    <script>
+        AOS.init();
+    </script>
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#" alt="menu">
-        <i class="fas fa-bars"></i>
+    <a class="menu-toggle rounded " href="#" alt="menu">
+        <i class="fas fa-bars "></i>
     </a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <img class="img-fluid " src="img/Laurent.png">
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger h2" href="#page-top">Acceuil</a>
+                <a class="js-scroll-trigger h2 portfolio-item jello-horizontal" href="#page-top">Acceuil</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger h2" href="#about">Mon profil</a>
+                <a class="js-scroll-trigger h2 jello-horizontal" href="#about">Mon profil</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger h2" href="#services">Compétences</a>
+                <a class="js-scroll-trigger h2 jello-horizontal" href="#services">Compétences</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger h2" href="#portfolio">Portfolio</a>
+                <a class="js-scroll-trigger h2 jello-horizontal" href="#portfolio">Portfolio</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger h2" href="#contact">Contact</a>
+                <a class="js-scroll-trigger h2 jello-horizontal" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
 
     <!-- Header -->
-    <header class="masthead d-flex bloc1">
-        <div class="p-5  mt-5 text-left ">
-            <img alt="photo de profil laurent jordan" src="img/profil.jpeg" class="img-fluid rounded-circle border border-dark ">
-        </div>
-        <div class="container text-center my-auto">
+    <header class="masthead d-flex bloc1 ">
+        <div class="container text-center my-auto ">
             <h1 class="mb-1">
-                Bienvenue, je m'appelle Jordan.</h1>
-            <h3 class="mb-5">
-                <em>J'aime  particulierment tout ce qui touche aux front end</em>
-            </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">MON PROFIL</a>
+                Bienvenue, je m'appelle Jordan.</h1><br>
+            <h3>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Salut, je suis Jordan.", "J aime le design. ", "J aime développer le front end."]'>
+                    <span class="wrap "></span>
+                </a>
+            </h3><br>
+            <a class="btn btn-primary btn-xl js-scroll-trigger kenburns-bottom-right " href="#about ">MON PROFIL</a>
         </div>
-        <div class="overlay"></div>
+        <div class="p-5 mt-5 text-left  ">
+            <img alt="photo de profil laurent jordan " src="img/profil.jpeg " class="img-fluid rounded-circle shadow-lg p-3 mb-5 bg-dark ">
+        </div>
+        <div class="overlay "></div>
     </header>
-
     <!-- About -->
-    <section class="content-section bg-light" id="about">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
+    <section class="content-section bg-light " id="about ">
+        <div class="container text-center " data-aos="fade-right" data-aos-duration="1500">
+            <div class="row ">
+                <div class="col-lg-10 mx-auto ">
                     <h2>Mon profil</h2><br>
-                    <p class="lead mb-5">Je suis un Développeur Web FullStack vivant à Montelimar, France.<br> Après un displomes de web developpeur equivalent bac +2 passer avec Openclassrooms, je me suis orienté vers le développement web notament de boutique e-commerce
-                        avec le cms Shopify</p><br>
+                    <p class="lead mb-5 ">Je suis un développeur Web FullStack vivant à Montélimar, France.<br> Après un diplôme de web développeur équivalent bac +2 passer avec Openclassrooms, je me suis orienté vers le développement web notamment de boutique e-commerce avec
+                        le cms Shopify</p><br>
 
-                    <h3>Compétence asquises lors de ma formation</h3><br>
-                    <ul class="text-left">
+                    <h3>Compétence acquise lors de ma formation</h3><br>
+                    <ul class="text-left ">
                         <li>découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML et CSS ;</li>
 
                         <li>ajouter du contenu audio et vidéo en HTML5 ;</li>
@@ -105,120 +110,120 @@
 
                         <li>créer, gérer et afficher le contenu d’une base de données.</li>
                     </ul><br>
-                    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Languages de programations</a>
+                    <a class="btn btn-dark btn-xl js-scroll-trigger " href="#services ">Langages de programmations</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-        <div class="container">
-            <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Compétences</h3><br>
-                <h2 class="mb-5">Les languages que je maitrise</h2><br>
+    <section class="content-section bg-primary text-white text-center " id="services " data-aos="fade-left" data-aos-duration="1500">
+        <div class="container ">
+            <div class="content-section-heading ">
+                <h3 class="text-secondary mb-0 ">Compétences</h3><br>
+                <h2 class="mb-5 ">Les langages que je maitrise</h2><br>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-html5"></i>
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="fab fa-html5 "></i>
           </span>
                     <h4>
                         <strong>Html5</strong>
                     </h4>
-                    <p class="text-faded mb-0">Structure du code en utilisant la bonne sémantique pour une optimisation du SEO</p>
+                    <p class="text-faded mb-0 ">Structure du code en utilisant la bonne sémantique pour une optimisation du SEO</p>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-sass"></i>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="fab fa-sass "></i>
           </span>
                     <h4>
                         <strong>Sass</strong>
                     </h4>
-                    <p class="text-faded mb-0">Ajout des variables ,Fonctions mathématiques... permet aussi une optimisation du site pour les SEO </p>
+                    <p class="text-faded mb-0 ">Ajout des variables ,Fonctions mathématiques... permet aussi une optimisation du site pour les SEO </p>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-js-square"></i>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="fab fa-js-square "></i>
           </span>
                     <h4>
                         <strong>Javascript</strong>
                     </h4>
-                    <p class="text-faded mb-0">Creation de tableaux , boucle , constante ou encore récuperations d'informations serveur</p>
+                    <p class="text-faded mb-0 ">Creation de tableaux , boucle , constante ou encore récuperations d'informations serveur</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-shopify"></i>
+                <div class="col-lg-3 col-md-6 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="fab fa-shopify "></i>
           </span>
                     <h4>
                         <strong>Shopify</strong>
                     </h4>
-                    <p class="text-faded mb-0">Ma permit de crée des design de boutique e-commerce pour du dropshipping</p>
+                    <p class="text-faded mb-0 ">Ma permit de créé des designs de boutique e-commerce pour du drop-shipping</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Callout -->
-    <section class="callout">
-        <div class="container text-center">
-            <h2 class="mx-auto mb-5">bientot
+    <section class="callout " data-aos="fade-right" data-aos-duration="1500">
+        <div class="container text-center ">
+            <h2 class="mx-auto mb-5 ">Bientôt
                 <em>le p6</em> arrive!
             </h2>
-            <a class="btn btn-primary btn-xl" href="">En construction!</a>
+            <a class="btn btn-primary btn-xl " href=" ">En construction!</a>
         </div>
     </section>
 
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-        <div class="container">
-            <div class="content-section-heading text-center">
-                <h3 class=" mb-0">Portfolio</h3>
-                <h2 class="mb-5">Mes projets</h2>
+    <section class="content-section " id="portfolio " data-aos="fade-left" data-aos-duration="1500">
+        <div class="container ">
+            <div class="content-section-heading text-center ">
+                <h3 class=" mb-0 ">Portfolio</h3>
+                <h2 class="mb-5 ">Mes projets</h2>
             </div>
-            <div class="row no-gutters">
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="https://jordanlaurent.github.io/P5-orinoco/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Projet orinoco</div>
-                                <p class="mb-0">Projet 5 de mon parcours web qui consiste a crée une boutique e-commerce avec du javascript</p>
+            <div class="row no-gutters ">
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="https://jordanlaurent.github.io/P5-orinoco/ ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Projet orinoco</div>
+                                <p class="mb-0 ">Projet 5 de mon parcours web qui consiste a créé une boutique e-commerce avec du Javascript</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio-1.jpg" alt="Projet orinoco">
+                        <img class="img-fluid " src="img/portfolio-1.jpg " alt="Projet orinoco ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="https://www.linkedin.com/in/laurent-jordan/">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Mon parcours </div>
-                                <p class="mb-0 text-dark">Consulter mon parcour professionnel et mes formations avec linkdin</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="https://www.linkedin.com/in/laurent-jordan/ ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Mon parcours </div>
+                                <p class="mb-0 text-dark ">Consulter mon parcours professionnel et mes formations avec linkdin</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio-2.jpg" alt="Mon parcours">
+                        <img class="img-fluid " src="img/portfolio-2.jpg " alt="Mon parcours ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="https://github.com/jordanlaurent">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Github</div>
-                                <p class="mb-0">Ici retrouvez tout mon travaill réaliser pendant mes études</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="https://github.com/jordanlaurent ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Github</div>
+                                <p class="mb-0 ">Ici retrouvez tout mon travaille réaliser pendant mes études</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="Mon Github">
+                        <img class="img-fluid " src="img/portfolio-3.jpg " alt="Mon Github ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">A venir</div>
-                                <p class="mb-0">Bientot ici apparaitra le p6</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="#! ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">A venir</div>
+                                <p class="mb-0 ">Bientôt ici apparaîtra le p6</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="A venir">
+                        <img class="img-fluid " src="img/portfolio-4.jpg " alt="A venir ">
                     </a>
                 </div>
             </div>
@@ -226,44 +231,44 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">Si vous êtes intéresser envoyez-moi un mail</h2>
-            <a href="#!" class="btn btn-xl btn-light mr-4">laurent.jordan@outlook.fr</a>
+    <section class="content-section bg-primary text-white " data-aos="fade-right" data-aos-duration="1500">
+        <div class="container text-center ">
+            <h2 class="mb-4 ">Si vous êtes intéressé envoyez-moi un mail</h2>
+            <a href="#! " class="btn btn-xl btn-light mr-4 ">laurent.jordan@outlook.fr</a>
         </div>
     </section>
 
     <!-- Map -->
-    <div id="contact" class="map">
-        <iframe title="Coordonée gps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.954688236452!2d4.7508793155135685!3d44.557031701533184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b56b199b57552b%3A0x98c79a76ecaf45!2sPlace%20Alphonse%20Planel%2C%2026200%20Mont%C3%A9limar!5e0!3m2!1sfr!2sfr!4v1605229966129!5m2!1sfr!2sfr"
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div id="contact " class="map " data-aos="fade-left" data-aos-duration="1500">
+        <iframe title="Coordonée gps " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.954688236452!2d4.7508793155135685!3d44.557031701533184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b56b199b57552b%3A0x98c79a76ecaf45!2sPlace%20Alphonse%20Planel%2C%2026200%20Mont%C3%A9limar!5e0!3m2!1sfr!2sfr!4v1605229966129!5m2!1sfr!2sfr "
+            width="600 " height="450 " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
         <br />
         <small>
-      <a href="https://goo.gl/maps/9PgPHrm5PfY7PQXE9"></a>
+      <a href="https://goo.gl/maps/9PgPHrm5PfY7PQXE9 "></a>
     </small>
     </div>
 
     <!-- Footer -->
-    <footer class="footer text-center bg-dark">
-        <div class="container">
-            <p class="text-light">Laurent jordan - Freelance web developpeur full stack .tout droit réservé @2020</p>
+    <footer class="footer text-center bg-dark " data-aos="fade-bottom" data-aos-duration="1500">
+        <div class="container ">
+            <h5 class="text-secondary ">Laurent jordan - Web développeur junior full stack .tout droit réservé 2020</h5>
         </div>
     </footer>
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
+    <a class="scroll-to-top rounded js-scroll-trigger " href="#page-top ">
+        <i class="fas fa-angle-up "></i>
     </a>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/stylish-portfolio.min.js "></script>
 
 </body>
 
